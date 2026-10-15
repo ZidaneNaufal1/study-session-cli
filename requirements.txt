@@ -1,0 +1,1 @@
+# Python 3.10+. Hanya standard library; tidak perlu pip install.
