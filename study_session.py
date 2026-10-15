@@ -137,6 +137,7 @@ def csv_cell(value):
 
 
 def export_csv(path, output, rows):
+    path = Path(path).resolve()
     output = Path(output).expanduser()
     protected = {path, Path(str(path) + "-wal"), Path(str(path) + "-shm"), Path(str(path) + "-journal")}
     if output.is_symlink() or output.resolve() in protected:

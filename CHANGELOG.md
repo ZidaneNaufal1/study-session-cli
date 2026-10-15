@@ -8,3 +8,4 @@
 - Pemeriksaan skema/versi, perintah baca read-only, transaksi SQL parameterized.
 - Tes perilaku, demo sintetis, CI lintas OS/Python, dokumentasi Indonesia dan English summary.
 - Validasi jam eksplisit menolak 24:00 secara konsisten pada seluruh versi Python yang didukung.
+- Normalisasi jalur database sebelum perlindungan ekspor menangani alias nama folder pendek Windows.
